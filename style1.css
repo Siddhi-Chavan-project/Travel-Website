@@ -1,0 +1,124 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("tr.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.2);
+    backdrop-filter: blur(4px);
+}
+
+.top-header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.top-header span {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.top-header header {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input-feild {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input {
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #000;
+    padding-left: 45px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+}
+
+.submit {
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit:hover {
+    box-shadow: 1px 5px 7px 1px rgba(0,0,0,0.2);
+    background: #ffffff;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+    color: #000;
+    margin-top: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+label a {
+    color: #000;
+    text-decoration: none;
+}
+
+label a:hover {
+    text-decoration: underline;
+}
+
+/* Back link */
+.back-link {
+    display: block;
+    text-align: center;
+    margin: 30px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    color: #444;
+    text-decoration: underline;
+}
